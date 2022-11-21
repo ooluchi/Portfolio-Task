@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+ 
+    background-image: linear-gradient(to right, rgb(182, 207, 216) , rgb(248, 126, 179));
+    
+}
+.container{
+    border: 5px;
+    border-radius: 20px;
+    background-color: rgb(246, 253, 255);
+    padding: 40px;
+    margin: 50px;
+    width: 190vh;
+    height: 90vh;
+    position: abosolute;
+    /* max-width: 100vw;
+    max-height: 100vw; */
+}
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 50px;
+}
+#Logo{
+    width: 250px;
+}
+.nav-list li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 20px;
+}
+.nav-list li a {
+    text-decoration: none;
+    color:black;
+    font-weight: bold;
+}
+.intro {
+    display: flex;
+    flex-direction: row;
+    padding: 50px;
+}
+#Me {
+    width: 200px;
+}
+.intro-content {
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+}
+.more-info{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    padding: 10px;
+    
+}
+.more-info-content-body{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+   
+    /* flex-wrap: wrap; */
+}
+
+.more-info-list li{
+    list-style-type: none;
+    display: inline-block;
+    border: 1px ridge;
+    font-weight: bold;
+    border-radius: 5px 6px;
+    padding: 5px;
+}
+#nav-button{
+    border: 1px solid;
+    border-radius: 5px;
+    background-color: black;
+    text-align: center;
+    line-height: 2px;
+    }
+#nav-button a{
+   
+    color: white;
+    text-decoration: none;
+    display: block;
+}
